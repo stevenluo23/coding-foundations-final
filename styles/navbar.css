@@ -1,0 +1,86 @@
+/* Navbar Styles */
+.navbar {
+  height: 100px;
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.navbar > #codepen-logo img {
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Navbar Explore Heading Styles */
+.navbar > .navbar-explore {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.navbar > .navbar-explore > .explore-heading h4 {
+  margin: 0;
+  color: #f3df7f;
+}
+
+.navbar > .navbar-explore > .explore-heading > .explore-links-wrapper {
+  padding: 0;
+  width: 310px;
+  height: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar > .navbar-explore > .explore-heading > .explore-links-wrapper a {
+  text-decoration: none;
+  color: white;
+  font-weight: 1000;
+  font-size: large;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 0.05em;
+  -webkit-text-stroke-color: white;
+}
+
+.navbar > .navbar-explore > .navbar-spark a {
+  display: flex;
+  gap: 15px;
+  margin-top: 19px;
+  text-decoration: none;
+  color: grey;
+  font-weight: 1000;
+  font-size: large;
+  letter-spacing: 1px;
+}
+
+.navbar > .navbar-explore > .navbar-spark > .spark-dropdown i {
+  color: grey;
+  margin-left: 10px;
+}
+
+/* Navbar Right Styles */
+.navbar-right-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.right-btns-wrapper > .search-icon {
+  float: left;
+}
+
+.right-btns-wrapper > .search-icon i {
+  font-size: 2.5rem;
+  color: grey;
+  padding: 13px 25px 10px 25px;
+}
+
+.create-btn > .create-dropdown i {
+  color: #4bce79;
+  font-size: 1.5rem;
+  padding-top: 2px;
+}

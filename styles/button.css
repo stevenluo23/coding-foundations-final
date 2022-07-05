@@ -1,0 +1,49 @@
+/* Common Button Styles */
+.btn {
+  float: left;
+}
+
+button {
+  color: white;
+  background-color: #36383f;
+  padding: 18px 30px;
+  font-size: 1.3rem;
+  font-weight: 900;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Navbar Right Buttons */
+.create-btn {
+  display: flex;
+  gap: 10px;
+  border: 1px solid #36383f;
+}
+
+.login-btn,
+.signup-btn {
+  margin-right: 15px;
+  border: 1px solid #36383f;
+}
+
+/* Codepen About Info Buttons */
+.signup-free-btn,
+.learn-btn {
+  padding: 0;
+  height: 80px;
+  width: 300px;
+  font-size: 2rem;
+  font-weight: 520;
+}
+
+.signup-free-btn {
+  color: black;
+  background-color: #5ada85;
+  border: 1px solid #5ada85;
+}
+
+.learn-btn {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}

@@ -1,0 +1,52 @@
+/* Codepen Info Wrapper Styles */
+.codepen-info-wrapper {
+  background-color: #3e424b;
+  box-shadow: inset -400px -200px 500px 200px rgb(0 0 0 / 45%);
+  overflow: hidden;
+}
+
+.codepen-info-wrapper > .codepen-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Codepen About Styles */
+.codepen-info-wrapper > .codepen-info > .codepen-about {
+  height: 265px;
+  width: 705px;
+  padding: 0 65px 275px 75px;
+}
+
+.codepen-info-wrapper > .codepen-info > .codepen-about h1 {
+  font-size: 2.5em;
+  color: lightgrey;
+  font-weight: 300;
+}
+
+.codepen-info-wrapper > .codepen-info > .codepen-about h1 b {
+  color: white;
+}
+
+.codepen-info-wrapper > .codepen-info > .codepen-about h2 {
+  font-size: 2.25em;
+  color: lightgrey;
+  font-weight: 300;
+}
+
+.codepen-info-wrapper > .codepen-info > .codepen-about > .codepen-about-btns {
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+/* Codepen Projects Section Styles */
+.codepen-info-wrapper > .codepen-info > .codepen-projects > .codepen-projects-image img {
+  width: 650px;
+}
+
+.codepen-info-wrapper > .codepen-info > .codepen-projects h3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: white;
+}
